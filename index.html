@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div class="filename">
+	<h1>Show File-select Fields</h1>
+
+	<h3>Show a file-select field which allows only one file to be chosen:</h3>
+	<form action='/predict' method="post">
+ 		 <label for="myfile">Select a file:</label>
+ 		 <input name="myfile" type="file" class="text" ><br><br>
+ 		 <input type="submit">
+	</form>
+
+   <br>
+   <br>
+   {{ prediction }}
+
+
+
+</div>
+
+</body>
+</html>
